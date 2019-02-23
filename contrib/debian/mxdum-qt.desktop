@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mxdum
+Comment=Mxdum P2P Cryptocurrency
+Comment[fr]=Mxdum, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Mxdum, eşten eşe kriptografik sanal para birimi
+Exec=mxdum-qt %u
+Terminal=false
+Type=Application
+Icon=mxdum128
+MimeType=x-scheme-handler/mxdum;
+Categories=Office;Finance;

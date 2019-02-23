@@ -1,0 +1,11 @@
+[Protocol]
+exec=mxdum-qt '%u'
+protocol=mxdum
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

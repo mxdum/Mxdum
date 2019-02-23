@@ -1,0 +1,26 @@
+# /etc/conf.d/mxdumd: config file for /etc/init.d/mxdumd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mxdum/mxdum.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mxdumd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mxdumd.pid"
+
+# Where to write mxdumd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mxdumd"
+
+# User and group to own mxdumd process
+#BITCOIND_USER="mxdum"
+#BITCOIND_GROUP="mxdum"
+
+# Path to mxdumd executable
+#BITCOIND_BIN="/usr/bin/mxdumd"
+
+# Nice value to run mxdumd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
